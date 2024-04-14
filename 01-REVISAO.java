@@ -1,4 +1,4 @@
-public class carro {
+public class Carro {
   private String modelo;
    private String marca;
    private String cor;
@@ -19,13 +19,13 @@ public void setModelo (String modelo){
   this.modelo
     }
 public String getMarca () {
-  retorn marca ; 
+  return marca ; 
 }
   public void setMarca  (String marca ) {
     this.marca ;
   }
   public String getCor () {
-    retorn cor;
+    return cor;
   }
 public void setCor  (String cor ) {
   this.cor;
@@ -38,16 +38,16 @@ public exibirInformacoes () {
   System.out.println ("Ano: " + ano );
 }
    public static void main (String [] args) {
-     carro carro1 = new carro ("Impala","Chevrolet","Preto",1967);
-     carro carro2 = new carro ("Mustang","Ford","Vermelho",1965);
+     Carro Carro1 = new Carro ("Impala","Chevrolet","Preto",1967);
+     Carro Carro2 = new Carro ("Mustang","Ford","Vermelho",1965);
    
 
-  System.out.printl ("Carro1:" );
-  carro1.exibirInformacoes();
+  System.out.printl ("Carro 1:" );
+  Carro1.exibirInformacoes();
   System.out.println();
 
-System.out.println ("Carro2:" );
-carro2.exibirinformacoes ();
+System.out.println ("Carro 2:" );
+Carro2.exibirInformacoes ();
 System.out.println();
 }
 }
