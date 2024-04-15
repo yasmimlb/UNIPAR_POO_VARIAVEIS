@@ -49,7 +49,7 @@ public class GerenciadorEstoque {
             System.out.println("4. Sair");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer do teclado
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1:
