@@ -39,7 +39,7 @@ public class SomaDivisaoDecimal {
         System.out.println("Informe a segunda nota:");
         segundaNota = scanner.nextDouble();
 
-        double media = (prNo+ seNo) / 2 ;
+        double total = (prNo+ seNo) / 2 ;
     
         System.out.println("A nota da média é :" + total);
     }
