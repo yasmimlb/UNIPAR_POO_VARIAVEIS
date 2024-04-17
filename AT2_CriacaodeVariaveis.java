@@ -5,7 +5,7 @@ public class PadraoCamelCase {
         double precoProduto;
         String marcaDoProduto;
         int quantidadeProduto;
-        String descricaoProduto;
+        String descricao_Produto;
         String nomeProduto;
         int numeroProduto123;
         double precoDoProduto;
