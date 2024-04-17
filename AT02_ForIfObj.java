@@ -1,4 +1,6 @@
-public class AT2 {
+import java.util.Scanner;
+
+public class PatinhosXuxa {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite um número inteiro positivo de patinhos: ");
@@ -24,7 +26,5 @@ public class AT2 {
         System.out.println("Na beira do mar");
         System.out.println("A mamãe gritou: Quá, quá, quá, quá");
         System.out.println("E os " + n + " patinhos voltaram de lá.");
-        
-        scanner.close();
     }
 }
