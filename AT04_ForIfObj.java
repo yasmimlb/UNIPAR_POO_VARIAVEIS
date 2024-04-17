@@ -1,4 +1,4 @@
-public class At4 {
+public class AlgoritmoVinte {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
