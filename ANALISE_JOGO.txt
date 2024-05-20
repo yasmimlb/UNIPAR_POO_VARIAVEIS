@@ -1,0 +1,54 @@
+Análise do Jogo "Fireboy and Watergirl 5: Elements"
+
+******************************RESUMÃO*************************
+
+* Entidade * (base da herança)
+   ^ Personagem (abstrata)
+    - Fireboy
+    - Watergirl
+   ^ Elemento  (abstrata)
+    - Item
+   ^ Perigo * (abstrata)
+      - Lava
+      - Gelo
+**************************************************************
+
+*Classe: Entidade
+Subclasses Diretas da entidade
+  - Personagem
+  - Elemento
+
+*Classe: Personagem (abstrata)
+- Está herdando de Entidade
+ Subclasses Diretas
+  - Fireboy
+  - Watergirl
+
+* Classe Fireboy
+- Herança: Herda de Personagem.
+
+* Classe Watergirl
+- Herança: Herda de Personagem.
+
+* Classe Elemento
+- Está herdando de Entidade.
+Subclasses Diretas
+  - Item
+  - Perigo
+
+* Classe Item
+- Está herdando de Elemento.
+
+* Classe Perigo
+- Está herdando de Elemento.
+Subclasses Diretas
+  - Lava
+  - Gelo
+
+* Classe Lava
+- Está herdando de Perigo.
+
+* Classe Gelo
+- Está herdando de Perigo.
+
+
