@@ -1,0 +1,31 @@
+//SOBRESCRITA (overriding):
+
+// Métodos com o mesmo nome: A sobrescrita de um método ocorre quando uma subclasse redefine um método da classe mãe com o mesmo nome, tipo de retorno e lista de argumentos. 
+// Isso substitui o comportamento original do método da classe mãe pela implementação da subclasse.
+
+// Uma subclasse pode adicionar novos métodos e atributos, além de redefinir ou sobrescrever métodos existentes herdados da classe mãe. 
+// Isso permite que a subclasse tenha seu próprio comportamento e funcionalidades exclusivas.
+
+// Objetivo: A sobrescrita de métodos permite que a subclasse personalize o comportamento de um método herdado para melhor atender às suas necessidades específicas. 
+//Isso torna o código mais flexível e adaptável.
+
+// Exemplo: classe CirculoColorido herda da classe Circulo, redefine o método mostrar() e implementa mudarCor():
+// A classe CirculoColorido está herdando da classe Circulo, mas redefine o método mostrar() para exibir informações específicas de um círculo colorido.
+// Além disso, implementa um novo método mudarCor() para manipular a cor do círculo.
+
+
+// SOBRECARGA (overloading):
+
+// Métodos com o mesmo nome:Todos os métodos abaixo têm o mesmo nome calcularArea, mas com diferentes assinaturas.
+
+// Assinaturas diferentes:Os métodos têm diferentes tipos e/ou números de parâmetros. Por exemplo, calcularArea() e calcularArea(int).
+
+// Retorno pode ser diferente:Embora não seja o caso neste exemplo, a sobrecarga de métodos também permite que métodos com o mesmo nome tenham diferentes tipos de retorno. 
+// No entanto, apenas a assinatura dos métodos (número e tipo dos parâmetros) é considerada ao determinar qual método sobrecarregado chamar.
+
+// Objetivo:O objetivo da sobrecarga de métodos é fornecer uma maneira conveniente de ter várias versões de um método com funcionalidades semelhantes, 
+// mas que operam com diferentes tipos de dados ou números de parâmetros.
+
+// Chamada de método:O método sobrecarregado a ser chamado é determinado pelo compilador com base na lista de argumentos passados e suas correspondências com 
+// os parâmetros dos métodos sobrecarregados disponíveis.
+
